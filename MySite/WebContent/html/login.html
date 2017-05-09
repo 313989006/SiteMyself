@@ -2,20 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>马康康的个人网页</title>
+<title>流弊不需解释</title>
 </head>
-<body >
-
+<link rel="stylesheet" type="text/css" href="../css/Login.css">
+	<!-- body里设置主页背景图片，设置平铺，大小自适应 -->
+<body background="../image/zhaoxin.jpg"
+	style="background-repeat: repeat;background-size: 100% 100%;background-attachment: fixed;">
+		
+		<div id="用户登录">
 		<form action="../jsp/login.jsp" method="post">
-		<span>用户</span><input name="username" type="text" title="请输入用户名" />
+		<span>用户名</span><input name="username" type="text" title="请输入用户名" />
 		<br />
 		<br />
-		<span>密码</span><input name="passwd" type="password" title="请输入密码" />
+		<span>密&nbsp;&nbsp;码</span><input name="passwd" type="password" title="请输入密码" />
 		<br />
 		<br />
-		<input name="submit" type="submit" value="确定">
-		<input name="reset" type="reset"  value="重置">
+		<button class="log" name="submit" type="submit" value="确定" >确定</button>
+		<button class="log" name="reset" type="reset"  value="重置" >重置</button>
 		</form>
+		</div>
 		
 </body>
 </html>
